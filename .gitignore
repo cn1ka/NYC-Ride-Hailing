@@ -1,0 +1,20 @@
+# Ignore large dataset files
+*.parquet
+data/
+
+# Ignore SQLite database files
+*.sqlite
+*.db
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
