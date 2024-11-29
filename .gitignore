@@ -6,6 +6,9 @@ data/
 *.sqlite
 *.db
 
+# Ignore GIF files
+*.gif
+
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
