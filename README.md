@@ -1,18 +1,23 @@
-# 4501-Final-Project
+# IEOR 4501 Final Project
 ## Overview
-This project analyzes hired-ride trip data from Uber and NYC Yellow Taxis (January 2020 to August 2024) alongside local historical weather data. The goal is to explore trends and answer specific questions using data processing, SQL queries, and visualizations. The results aim to uncover insights into ride-hailing patterns and weather impact.
+This project analyzes hired-ride trip data from Uber and NYC Yellow Taxis (January 2020 to August 2024) alongside local historical weather data. The goal is to explore trends and answer specific questions using data processing, SQL queries, and visualizations. The results aim to uncover insights into ride-hailing patterns and weather impact. The raw data originates from [https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page].
 The note book has four sections:
 - **Data Preprossing**: Download, clean, and sample data to manage size and ensure usability.
 - **Storing Data**: Store processed datasets in a SQLite database.
 - **Understanding Data**: Execute SQL queries to extract insights.
 - **Visualizaing Data**: Create informative visualization to support analysis
-## Group Information
+- **Data Preprossing**
+- **Storing Data**
+- **Understanding Data**
+- **Visualizaing Data**
+## Author Information
 - **Group Name**: Project Group 17
+- **Author Name**: Nan Chen, Grace Li
 - **UNIs**: [nc3137, yl4294]
 ## Features
 ### Data Preprocessing
 - Programmatically downloads Yellow Taxi and Uber trip data as Parquet files.
-- Applies Cochran’s sample size formula for efficient sampling.
+- Applies Cochran’s sample size formula for efficient sampling, as both the Yellow Taxi and Uber datasets contain millions of data points each month.
 - Cleans datasets using pandas and geopandas, including normalization and filtering.
 ### Storing Data
 - Populates a SQLite database with cleaned datasets.
