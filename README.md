@@ -1,6 +1,8 @@
 # IEOR 4501 Final Project
 ## Overview
-This project analyzes hired-ride trip data from Uber and NYC Yellow Taxis (January 2020 to August 2024) alongside local historical weather data. The goal is to explore trends and answer specific questions using data processing, SQL queries, and visualizations. The results aim to uncover insights into ride-hailing patterns and weather impact. The raw data originates from [https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page].
+This project analyzes hired-ride trip data from Uber and NYC Yellow Taxis (January 2020 to August 2024) alongside local historical weather data. The goal is to explore trends and answer specific questions using data processing, SQL queries, and visualizations. The results aim to uncover insights into ride-hailing patterns and weather impact. NYC Taxi and Uber data are sourced from [NYC TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
+
+
 The note book has four sections:
 - **Data Preprossing**: Download, clean, and sample data to manage size and ensure usability.
 - **Storing Data**: Store processed datasets in a SQLite database.
