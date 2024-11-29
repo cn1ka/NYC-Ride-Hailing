@@ -34,4 +34,8 @@ The note book has four sections:
 - **Monthly Earnings from Hired Rides**: A stacked bar chart showing the breakdown of monthly earnings (base fare, surcharges, taxes, tolls) for Yellow Taxis and Ubers.
 - **Effect of Precipitation or Distance On Tips**: A 2x2 grid of scatter plots showing relationships between tips, distance, and weather.
 - **Heatmap of Hired Trips in 2020**: A geospatial heatmap overlaying NYC to show the density of hired trips in 2020.
-
+### Extra Credit
+- Add one animation for bar chart displaying Most Popular Hour to Take a Taxi.
+- Add type hints to all functions & class methods that have defined.
+- Add an additional SQL table that contains daily sunset/sunrise data, write a question that considers this new table in relation to one or more existing tables, and then create either a SQL query or a visualization that answers that question.
+- Submit project for grading a week early.
